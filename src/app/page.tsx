@@ -346,7 +346,7 @@ export default function Home() {
         >
           {[...Array(20)].map((_, i) => (
             <span key={i} className="text-3xl sm:text-5xl md:text-7xl font-black text-white/20 mx-6 sm:mx-12 flex items-center">
-              DEMO <span className="text-xl sm:text-3xl mx-4 sm:mx-8">✦</span>
+              DEMO
             </span>
           ))}
         </motion.div>
